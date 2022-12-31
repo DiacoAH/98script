@@ -29,6 +29,5 @@ class Ssl():
             return self.lastkandel
 if __name__ == '__main__':
     ssl = Ssl()
-    a = ssl.apply(30, 50, 50)
-    print(a)
-    
+    mydata = ssl.apply(30, 100, 100)
+    breakpoint()    

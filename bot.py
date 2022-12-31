@@ -26,10 +26,10 @@ def main():
 
 def run():
     global updater ,dispatcher , password ,authedUsers
-    updater = Updater('5621802599:AAHgeKAfykVmHeqTFsL0SM-8joNZzb_QQyU')
+    updater = Updater('5881430169:AAFV46_g5hiIL9uYpigFI8zetNKOx-aU2n0')
     dispatcher = updater.dispatcher
     password = "Hi"
-    authedUsers = [163552356 , 5449566206]
+    authedUsers = [163552356] #  , 5449566206
     t1 = threading.Thread(target=main)
     t1.start()
 def send(text):
